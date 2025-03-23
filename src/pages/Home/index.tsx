@@ -1,12 +1,11 @@
-
-import { Summary } from "./components/Summary";
 import { HomeContainer } from "./styles";
+import GithubPerfilUsuario from './components/GithubPerfilUsuario';
 
 export function Home() {
 
   return (
     <HomeContainer>
-      <Summary />
+      <GithubPerfilUsuario/>
     </HomeContainer>
   );
 }
