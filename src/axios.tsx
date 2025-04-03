@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-const axiosInstance = axios.create({
-  baseURL: 'https://api.github.com', 
-  timeout: 5000, 
+export const axiosInstance = axios.create({
+  baseURL: 'https://api.github.com'
 });
 
-export default axiosInstance;

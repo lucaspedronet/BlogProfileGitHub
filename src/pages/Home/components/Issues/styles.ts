@@ -14,6 +14,7 @@ export const IssuesContainer = styled.div`
   padding: 2rem;
   border-radius: 10px;
 
+
   div {
     display: flex;
     align-items: flex-start;
@@ -25,7 +26,7 @@ export const IssuesContainer = styled.div`
       width: 80%;
       font-size: 1.25rem;
       font-weight: bold;
-      color: ${(props) => props.theme["gray-100"]};
+      color: ${(props) => props.theme["blue-100"]};
     }
 
     span {
