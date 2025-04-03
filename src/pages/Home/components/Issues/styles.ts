@@ -37,5 +37,9 @@ export const IssuesContainer = styled.div`
 
   p {
     color: ${(props) => props.theme["gray-300"]};
+    max-height: 5rem; 
+    overflow: auto;
+    padding-right: 10px;
+    margin-bottom: 10px
   }
 `;
