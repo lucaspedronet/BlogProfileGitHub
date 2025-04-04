@@ -5,6 +5,13 @@ export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
 `;
 
+export const IssuesGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+`;
+
 export const IssuesContainer = styled.div`
   max-width: 26rem;
   height: 16.25rem;
