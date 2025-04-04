@@ -1,4 +1,3 @@
-// import { dateFormatter } from "../../../../utils/formatter";
 import { IssuesContainer, StyledNavLink, IssuesGrid } from "./styles";
 
 import axios from 'axios';
