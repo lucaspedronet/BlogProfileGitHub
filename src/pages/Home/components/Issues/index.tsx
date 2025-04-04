@@ -41,7 +41,7 @@ export function Issues() {
                 <h2>{issue.title}</h2>
                 <span>{new Date(issue.created_at).toLocaleDateString("pt-BR")}</span>
               </div>
-              <p>{issue.body}</p>
+              <p>{issue.body || 'Sem Mensagem'}</p>
             </StyledNavLink>
           </IssuesContainer>
         ))}
